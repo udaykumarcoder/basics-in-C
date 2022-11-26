@@ -1,0 +1,14 @@
+//write a program to check  if a given number is natural number or not
+#include<stdio.h>
+int main(){
+	int n;
+	printf("enter number");
+	scanf("%d",&n);
+	if(n>0){
+		printf("it is a natural nuumber");
+	}
+	else{
+		printf("it is not natural nuumber");
+	}
+	return 0;
+}
