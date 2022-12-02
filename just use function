@@ -1,0 +1,33 @@
+#include <stdio.h>
+//write a function to print namaste if user is indian and bonjour if user is french
+void namaste ();
+void bonjour ();		//function declaration
+int
+main ()
+{
+  char ch;
+  printf ("enter i for india and f for french");
+  scanf ("%c", &ch);
+  if (ch == 'i')
+    {
+      namaste ();
+    }
+  else
+    {
+      bonjour ();
+    }
+
+  return 0;
+}
+
+void
+namaste ()
+{
+  printf ("Namaste");
+}
+
+void
+bonjour ()
+{
+  printf ("Bonjour");
+}
